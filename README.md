@@ -7,8 +7,8 @@ Flow throws an unusual error when the user
 
 ```
 $ flow check
-test.js:12
- 12: Promise.resolve().then(_ => new ImportedAndSubclassedWithConstructor())
+test.js:17
+ 17: Promise.resolve().then(_ => new ImportedAndSubclassedWithConstructor())
                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ImportedAndSubclassedWithConstructor. This type is incompatible with
 422:       onFulfill?: (value: R) => Promise<U> | U,
                                      ^^^^^^^^^^ Promise. See: /private/tmp/flow/flowlib_33b4cd20/core.js:422
